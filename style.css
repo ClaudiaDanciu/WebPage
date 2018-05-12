@@ -1,0 +1,145 @@
+/*body*/
+body{
+    align-content: center;  
+    font: Roboto-Regular, Helvetica-Neue;
+    font-family: 'Cabin', sans-serif;
+    background-image: url(big.jpg);
+    
+  }
+    
+  
+/*menu*/
+#top_header{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main {
+    text-align: center;
+    display: center;
+    padding: 0 auto;
+    height: 90vh;
+    align-items: center;
+    
+   
+}
+
+#logo{
+	display:block;
+	float:left;
+	height:45px;
+	width:250px;
+        margin-left: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+}
+nav {
+    text-align: right;
+     background-color: #1fccc4 ;
+     width:1240px;
+     height:45px;
+     color: #48245a
+}
+
+nav.ul{
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: right;
+    
+}
+nav.ul li {
+    display: inline;
+    text-align: right;
+    
+}
+
+nav li{
+    padding:10px 30px;
+    
+    display: inline-block;
+    text-align: right;
+}
+.menu
+{
+ color: #48245a; 
+ text-align: right;
+}
+
+/*clock*/
+
+.clockbox,
+#clock {
+   width: auto; 
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 5.9vw;
+}
+
+h2 {
+    font-size: 3.0vh;
+    
+}
+
+
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
+
+#Me {
+    margin-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: whitesmoke ;
+   
+    padding-bottom: 2%;
+    width: 100%;
+    height: auto;
+    font-size : 2vmin;
+    
+}
+
+
+
+
+.mypic {
+    margin-top: 1%;
+    margin-right: 5%;
+    border-radius: 50%;  
+    margin-left: 80%;
+    width: 14%;
+    height: auto;
+    
+}
+
+
+
+.container {
+    width: 100%;
+    display: inline;
+}
+
+
+#main-content {
+   
+    align-content: center;
+    margin: 30px;
+    text-align: center;
+    color: #3D2399; 
+}
+
+
+
+  
